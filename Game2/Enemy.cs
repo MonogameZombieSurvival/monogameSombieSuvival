@@ -12,7 +12,7 @@ namespace Game2
     /// <summary>
     /// Class that represents a asteroid
     /// </summary>
-    class Asteroid : GameObject
+    class Enemy : GameObject
     {
 
       
@@ -33,7 +33,7 @@ namespace Game2
         /// </summary>
         /// <param name="size">Size should between 1 to 4 and is used to select the correct texture</param>
         /// <param name="content">Content Manager for loading resources</param>
-        public Asteroid(int size, ContentManager content, Vector2 PlayerPosition) :this(new Vector2(new Random().Next(GameWorld.ScreenSize.Width), new Random().Next(GameWorld.ScreenSize.Height)), size, content)
+        public Enemy(int size, ContentManager content, Vector2 PlayerPosition) :this(new Vector2(new Random().Next(GameWorld.ScreenSize.Width), new Random().Next(GameWorld.ScreenSize.Height)), size, content)
         {
             playerPosition = PlayerPosition;
             position = new Vector2(rand.Next(GameWorld.ScreenSize.Width), rand.Next(GameWorld.ScreenSize.Height));
@@ -46,7 +46,7 @@ namespace Game2
         /// <param name="startPosition">Starting position of the asteroid</param>
         /// <param name="size">Size should between 1 to 4 and is used to select the correct texture</param>
         /// <param name="content">Content Manager for loading resources</param>
-        public Asteroid(Vector2 startPosition,int size, ContentManager content) : base(content, $"Asteroids_{(int)Math.Pow(2, 5 + size)}x{(int)Math.Pow(2, 5 + size)}_00{(new Random().Next(1, 8))}")
+        public Enemy(Vector2 startPosition,int size, ContentManager content) : base(content, $"Asteroids_{(int)Math.Pow(2, 5 + size)}x{(int)Math.Pow(2, 5 + size)}_00{(new Random().Next(1, 8))}")
         {
             this.size = size;
             position = startPosition;

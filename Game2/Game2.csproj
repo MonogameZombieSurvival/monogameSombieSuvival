@@ -69,7 +69,7 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Asteroid.cs" />
+    <Compile Include="Enemy.cs" />
     <Compile Include="Bullet.cs" />
     <Compile Include="Camera.cs" />
     <Compile Include="Explosion.cs" />

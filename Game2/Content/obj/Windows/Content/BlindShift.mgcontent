@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Kuikai/Desktop/code/MonoSuvivalGame/ZombieMonogame/Game2/Content/BlindShift.mp3</SourceFile>
+  <SourceFile>C:/Users/mikke/OneDrive/Skrivebord/MonogamesProjekt/monogameSombieSuvival/Game2/Content/BlindShift.mp3</SourceFile>
   <SourceTime>2018-11-06T15:56:33.7551812+01:00</SourceTime>
-  <DestFile>C:/Users/Kuikai/Desktop/code/MonoSuvivalGame/ZombieMonogame/Game2/Content/bin/Windows/Content/BlindShift.xnb</DestFile>
-  <DestTime>2018-11-06T16:07:08.0349655+01:00</DestTime>
+  <DestFile>C:/Users/mikke/OneDrive/Skrivebord/MonogamesProjekt/monogameSombieSuvival/Game2/Content/bin/Windows/Content/BlindShift.xnb</DestFile>
+  <DestTime>2018-11-07T09:02:23.5434597+01:00</DestTime>
   <Importer>Mp3Importer</Importer>
   <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
   <Processor>SongProcessor</Processor>
@@ -15,6 +15,6 @@
   <Dependencies />
   <BuildAsset />
   <BuildOutput>
-    <string>C:/Users/Kuikai/Desktop/code/MonoSuvivalGame/ZombieMonogame/Game2/Content/bin/Windows/Content/BlindShift.wma</string>
+    <string>C:/Users/mikke/OneDrive/Skrivebord/MonogamesProjekt/monogameSombieSuvival/Game2/Content/bin/Windows/Content/BlindShift.wma</string>
   </BuildOutput>
 </PipelineBuildEvent>

@@ -95,7 +95,7 @@ namespace Game2
 
         public override void DoCollision(GameObject otherObject)
         {
-            if (otherObject is Asteroid)
+            if (otherObject is Enemy)
             {
                 health--;
             }

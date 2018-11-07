@@ -40,7 +40,7 @@ namespace Game2
             {
                 GameWorld.RemoveGameObject(this);
             }
-        }
+        } 
 
         
     }
