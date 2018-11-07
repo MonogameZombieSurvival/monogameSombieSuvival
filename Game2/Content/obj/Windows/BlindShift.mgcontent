@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/paeh/source/repos/Game2/Game2/Content/BlindShift.mp3</SourceFile>
+  <SourceTime>2018-10-30T19:52:02.0894464+01:00</SourceTime>
+  <DestFile>C:/Users/paeh/source/repos/Game2/Game2/Content/bin/Windows/BlindShift.xnb</DestFile>
+  <DestTime>2018-10-30T19:52:54.8669008+01:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2018-09-23T23:55:52+02:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/paeh/source/repos/Game2/Game2/Content/bin/Windows/BlindShift.wma</string>
+  </BuildOutput>
+</PipelineBuildEvent>
