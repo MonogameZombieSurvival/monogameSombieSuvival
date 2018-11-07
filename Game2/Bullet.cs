@@ -22,7 +22,7 @@ namespace Game2
         /// <param name="direction">Sets the movement direction for the Bullet</param>
         /// <param name="startPosition">Sets its starting position</param>
         /// <param name="content">Content Manager for loading resources</param>
-        public Bullet(Vector2 direction, Vector2 startPosition, ContentManager content) : base(startPosition,content, "bullet")
+        public Bullet(Vector2 direction, Vector2 startPosition, ContentManager content) : base(startPosition,content, "smallbullet")
         {
             this.direction = direction;
             this.direction.Normalize();

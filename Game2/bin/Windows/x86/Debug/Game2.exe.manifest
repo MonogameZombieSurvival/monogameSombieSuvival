@@ -38,7 +38,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>vGnnL9UHYtJ66NLMdagUqEcuGpQyN76yLpKsIhR5U74=</dsig:DigestValue>
+        <dsig:DigestValue>SV6thuoMiHPI2+vWU/ql7jYPnGGZZj8QQlO8phYDz1k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -559,6 +559,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>ovNhGshIMhxBm94gdS9HbQTEG76I5pjJjqrt7b+XmDk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smallbullet.xnb" size="185">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ANvisvC+q4OXJTX94Unui2Pz1+ZasQNHtnQF061X458=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\survivor-idle_handgun_0.xnb" size="218677">

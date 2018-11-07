@@ -548,6 +548,18 @@
 /processorParam:TextureFormat=Color
 /build:skeleton-attack_0.png
 
+#begin smallbullet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:smallbullet.png
+
 #begin survivor-idle_handgun_0.png
 /importer:TextureImporter
 /processor:TextureProcessor

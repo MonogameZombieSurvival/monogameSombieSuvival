@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Kuikai/Desktop/code/MonoSuvivalGame/ZombieMonogame/Game2/Content/Asteroids_64x64_006.png</SourceFile>
-  <SourceTime>2018-11-06T15:56:33.720217+01:00</SourceTime>
-  <DestFile>C:/Users/Kuikai/Desktop/code/MonoSuvivalGame/ZombieMonogame/Game2/Content/bin/Windows/Content/Asteroids_64x64_006.xnb</DestFile>
-  <DestTime>2018-11-06T16:07:04.8971747+01:00</DestTime>
+  <SourceFile>C:/Users/stein/Desktop/Monogame/Game2/monogameSombieSuvival/Game2/Content/Asteroids_64x64_006.png</SourceFile>
+  <SourceTime>2018-11-07T11:21:24.8161168+01:00</SourceTime>
+  <DestFile>C:/Users/stein/Desktop/Monogame/Game2/monogameSombieSuvival/Game2/Content/bin/Windows/Content/Asteroids_64x64_006.xnb</DestFile>
+  <DestTime>2018-11-07T11:29:36.8670415+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
