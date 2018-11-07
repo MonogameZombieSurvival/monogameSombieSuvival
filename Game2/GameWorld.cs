@@ -114,9 +114,15 @@ namespace Game2
 
             //Adds randomized asteroids to game
             Random rnd = new Random();
+
+               for (int i = 0; i < 10; i++)
+            {
+                gameObjects.Add(new Enemy(rnd.Next(1, 3), Content,player.playerPosition));
+                Thread.Sleep(100);
+            }
             for (int i = 0; i < 10; i++)
             {
-                gameObjects.Add(new Asteroid(rnd.Next(1, 3), Content,player.playerPosition));
+                gameObjects.Add(new Enemy(rnd.Next(1, 3), Content,player.playerPosition));
                 Thread.Sleep(100);
             }
 
@@ -146,7 +152,9 @@ namespace Game2
                 Exit();
            
 
-            
+
+
+
             foreach (GameObject go in gameObjects)
             {
                 go.Update(gameTime);
